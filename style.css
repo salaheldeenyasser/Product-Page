@@ -263,6 +263,12 @@ td {
     cursor: pointer;
     margin-bottom: 16px;
     position: static;
+    transition: all 0.3s ease-in-out;
+}
+
+#hero .content .add-to-cart:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
 }
 
 #hero .content .add-to-cart img {
@@ -285,6 +291,12 @@ td {
     cursor: pointer;
     margin-bottom: 16px;
     position: static;
+    transition: all 0.3s ease-in-out;
+}
+
+#hero .content .add-to-wishlist:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
 }
 
 #hero .content .add-to-wishlist img {
